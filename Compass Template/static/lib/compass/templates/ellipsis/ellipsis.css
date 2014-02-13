@@ -1,0 +1,55 @@
+/*
+Syntax error: File to import not found or unreadable: compass/typography/text/ellipsis.
+              Load path: /Users/koen/Desktop/CompassTestSite/.build
+        on line 4 of /Users/koen/Desktop/CompassTestSite/static/frameworks/compass/templates/ellipsis/ellipsis.sass
+
+1: // Since you've installed the xml file, you should set
+2: // $use-mozilla-ellipsis-binding to true before importing.
+3: $use-mozilla-ellipsis-binding: true
+4: @import compass/typography/text/ellipsis
+5: 
+6: // You can delete this sass file if you want, it's just an example of how to use the ellipsis mixin.
+7: // By default, ellipsis text is no-wrap. Pass false as the first argument if you don't want that.
+8: .ellipsis
+9:   +ellipsis
+
+Backtrace:
+/Users/koen/Desktop/CompassTestSite/static/frameworks/compass/templates/ellipsis/ellipsis.sass:4
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/import_node.rb:45:in `import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/root_node.rb:20:in `render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/engine.rb:315:in `_render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/engine.rb:262:in `render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/plugin/compiler.rb:201:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/plugin.rb:81:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/exec.rb:443:in `watch_or_update'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/exec.rb:326:in `process_result'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/exec.rb:41:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/exec.rb:21:in `parse!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/bin/scss:13:in `<top (required)>'
+/Applications/Cactus Beta.app/Contents/Resources/Vendor/ruby/gems/bin/scss:23:in `load'
+/Applications/Cactus Beta.app/Contents/Resources/Vendor/ruby/gems/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: compass/typography/text/ellipsis.\A               Load path: /Users/koen/Desktop/CompassTestSite/.build\A         on line 4 of /Users/koen/Desktop/CompassTestSite/static/frameworks/compass/templates/ellipsis/ellipsis.sass\A \A 1: // Since you've installed the xml file, you should set\A 2: // $use-mozilla-ellipsis-binding to true before importing.\A 3: $use-mozilla-ellipsis-binding: true\A 4: @import compass/typography/text/ellipsis\A 5: \A 6: // You can delete this sass file if you want, it's just an example of how to use the ellipsis mixin.\A 7: // By default, ellipsis text is no-wrap. Pass false as the first argument if you don't want that.\A 8: .ellipsis\A 9:   +ellipsis"; }
