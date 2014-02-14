@@ -1,7 +1,7 @@
 @import "bourbon";
 
 // Small test from the site
-section {
+test {
   @include linear-gradient(to top, red, orange);
 }
 
