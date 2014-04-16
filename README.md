@@ -5,6 +5,7 @@ Extra templates for Cactus with integrations:
 - Compass
 - Compass Blueprint
 - Bourbon
+- Framer (http://www.framerjs.com)
 
 ### What is Cactus
 
