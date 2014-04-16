@@ -1,52 +1,94 @@
-/*
-Syntax error: File to import not found or unreadable: compass/utilities/general/float.
-              Load path: /Users/koen/Desktop/CompassTestSite/.build
-        on line 1 of /Users/koen/Desktop/CompassTestSite/static/frameworks/blueprint/templates/buttons/buttons.sass
+a.button {
+  display: inline;
+  float: left;
+  display: block;
+  margin: 0.7em 0.5em 0.7em 0;
+  border-width: 1px;
+  border-style: solid;
+  font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+  font-size: 100%;
+  line-height: 130%;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 5px 10px 5px 7px;
+  background-color: whitesmoke;
+  border-color: #eeeeee #dedede #dedede #eeeeee;
+  color: #565656; }
+  a.button img {
+    margin: 0 3px -3px 0 !important;
+    padding: 0;
+    border: none;
+    width: 16px;
+    height: 16px;
+    float: none; }
+  a.button:hover {
+    background-color: #dff4ff;
+    border-color: #d2f1ff #c2e1ef #c2e1ef #d2f1ff;
+    color: #336699; }
+  a.button:active {
+    background-color: #6299c5;
+    border-color: #72a9d5 #6299c5 #6299c5 #72a9d5;
+    color: white; }
 
-1: @import compass/utilities/general/float
-2: @import blueprint/buttons
-3: 
-4: //
-5:   Use the following HTML code to place the buttons on your site:
-6:   
+button {
+  display: inline;
+  float: left;
+  display: block;
+  margin: 0.7em 0.5em 0.7em 0;
+  border-width: 1px;
+  border-style: solid;
+  font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+  font-size: 100%;
+  line-height: 130%;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  width: auto;
+  overflow: visible;
+  padding: 4px 10px 3px 7px;
+  background-color: whitesmoke;
+  border-color: #eeeeee #dedede #dedede #eeeeee;
+  color: #565656; }
+  button img {
+    margin: 0 3px -3px 0 !important;
+    padding: 0;
+    border: none;
+    width: 16px;
+    height: 16px;
+    float: none; }
+  button[type] {
+    padding: 4px 10px 4px 7px;
+    line-height: 17px; }
+  *:first-child + html button[type] {
+    padding: 4px 10px 3px 7px; }
+  button:hover {
+    background-color: #dff4ff;
+    border-color: #d2f1ff #c2e1ef #c2e1ef #d2f1ff;
+    color: #336699; }
+  button:active {
+    background-color: #6299c5;
+    border-color: #72a9d5 #6299c5 #6299c5 #72a9d5;
+    color: white; }
 
-Backtrace:
-/Users/koen/Desktop/CompassTestSite/static/frameworks/blueprint/templates/buttons/buttons.sass:1
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/import_node.rb:45:in `import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/import_node.rb:28:in `imported_file'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/import_node.rb:37:in `css_import?'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/root_node.rb:20:in `render'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/engine.rb:315:in `_render'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/engine.rb:262:in `render'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/plugin/compiler.rb:201:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/plugin.rb:81:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/exec.rb:443:in `watch_or_update'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/exec.rb:326:in `process_result'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/exec.rb:41:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/lib/sass/exec.rb:21:in `parse!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.14/bin/scss:13:in `<top (required)>'
-/Applications/Cactus Beta.app/Contents/Resources/Vendor/ruby/gems/bin/scss:23:in `load'
-/Applications/Cactus Beta.app/Contents/Resources/Vendor/ruby/gems/bin/scss:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: compass/utilities/general/float.\A               Load path: /Users/koen/Desktop/CompassTestSite/.build\A         on line 1 of /Users/koen/Desktop/CompassTestSite/static/frameworks/blueprint/templates/buttons/buttons.sass\A \A 1: @import compass/utilities/general/float\A 2: @import blueprint/buttons\A 3: \A 4: //\A 5:   Use the following HTML code to place the buttons on your site:\A 6:   "; }
+a.positive, button.positive {
+  color: #529214; }
+  a.positive:hover, button.positive:hover {
+    background-color: #e6efc2;
+    border-color: #d6e890 #c6d880 #c6d880 #d6e890;
+    color: #529214; }
+  a.positive:active, button.positive:active {
+    background-color: #529214;
+    border-color: #62a224 #529214 #529214 #62a224;
+    color: white; }
+
+a.negative, button.negative {
+  color: #d12f19; }
+  a.negative:hover, button.negative:hover {
+    background-color: #fbe3e4;
+    border-color: #ffd2d4 #fbc2c4 #fbc2c4 #ffd2d4;
+    color: #d12f19; }
+  a.negative:active, button.negative:active {
+    background-color: #d12f19;
+    border-color: #e13f29 #d12f19 #d12f19 #e13f29;
+    color: white; }
