@@ -27,10 +27,10 @@ def preBuild(site):
 
     scss_import_path = os.path.join(site.static_path, "lib", "bourbon")
 
-    run('find %s -name "*.scss" -not -name "_*" -exec scss -C --update --compass --load-path %s {} \;' % \
+    run('find %s -name "*.scss" -not -name "_*" -exec scss -C --update --load-path %s {} \;' % \
         (pipes.quote(site.static_path), pipes.quote(scss_import_path)))
 
-    run('find %s -name "*.sass" -not -name "_*" -exec scss -C --sass --update --compass --load-path %s {} \;' % \
+    run('find %s -name "*.sass" -not -name "_*" -exec scss -C --sass --update --load-path %s {} \;' % \
         (pipes.quote(site.static_path), pipes.quote(scss_import_path)))
 
     run('find %s -name "*.coffee" -exec coffee -c {} \;' % pipes.quote(site.static_path))
